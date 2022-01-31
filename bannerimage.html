@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup Page</title>
+    <style>
+    body{
+        background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .signupbox{
+        width: 380px;
+        height: 640px;
+        margin-top: 180px;
+        margin-left: 750px;
+        background-color: white;
+        border-radius: 3px;
+    }
+
+    .line{
+    width: 310px;
+    background-color: rgb(150, 144, 144);
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 30px;
+    } 
+
+    form{
+        width: 310px;
+        margin: 28px;
+        font-size: 20px;
+    }
+
+    form label{
+        display: flex;
+        margin-top: 19px;
+        font-size: 17px;
+    }
+
+    form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid rgb(199, 196, 196);
+        border-radius: 18px;
+        outline: none;
+        background-color: rgb(230, 219, 219);
+    }
+    
+    input[type="button"]{
+        width: 320px;
+        height: 35px;
+        margin-top: 10px;
+        border: none;
+        background-color: black;
+        color:white;
+        font-size: 18px;
+    }
+    
+    </style>
+</head>
+<body>
+    <Div class="signupbox">
+        <h1>Sign Up</h1>
+        <hr class="line">
+        <form>
+
+            <label>First Name</label>
+            <input type="text" placeholder="enter first name">
+
+            <label>Last Name</label>
+            <input type="text" placeholder="enter last name">
+
+            <label>Date Of Birth</label>
+            <input type="date" placeholder="">
+
+            <label>Email</label>
+            <input type="email" placeholder="enter email">
+
+            <label>Password</label>
+            <input type="password" placeholder="enter password">
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="confirm the password">
+            <br><br>
+            <hr class="line">
+            <input type="button" value="Register">
+
+        </form>
+
+    </Div>
+</body>
+</html>
